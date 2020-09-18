@@ -16,14 +16,14 @@ _saved_*
 
 # BOM plugin output
 *.csv.tmp
-*.csv
+#*.csv
 *.xml
 
 # Gerbers
-*.gbr
+#*.gbr
 
 # Drill files
-*.drl
+#*.drl
 
 # Footprint info cache
 fp-info-cache
