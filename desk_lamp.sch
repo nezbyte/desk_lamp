@@ -1149,4 +1149,6 @@ Text GLabel 7800 5800 0    50   Input ~ 0
 Lamp_Control
 Wire Wire Line
 	8050 5800 7800 5800
+Text Notes 10600 7650 0    50   ~ 0
+1.1 Alpha
 $EndSCHEMATC
