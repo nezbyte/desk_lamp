@@ -134,13 +134,13 @@ $EndComp
 Wire Wire Line
 	9750 4550 9750 4600
 $Comp
-L nezbyte:MCP1799T-3302H_DB U1
+L nezbyte:MCP1703T-3302E_MB U1
 U 1 1 5F603BDA
 P 1450 1450
 F 0 "U1" H 1650 1150 50  0000 C CNN
-F 1 "MCP1799T-3302H_DB" H 1450 1624 50  0000 C CNN
+F 1 "MCP1703T-3302E/MB" H 1450 1624 50  0000 C CNN
 F 2 "nezbyte:SOT-89-3" H 1450 1600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/268/MCP1799-Data-Sheet-20006248A-1658571.pdf" H 1450 1600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/268/22049a-51817.pdf" H 1450 1600 50  0001 C CNN
 	1    1450 1450
 	1    0    0    -1  
 $EndComp
@@ -509,13 +509,13 @@ Wire Wire Line
 Text Notes 6850 900  0    197  ~ 0
 SPI Flash\n
 $Comp
-L nezbyte:ECS-TXO-25CSMV-320-AM-TR U3
+L nezbyte:ECS-TXO-2520-33-250-AN-TR U3
 U 1 1 5F676A78
 P 5650 1550
 F 0 "U3" H 5420 1596 50  0000 R CNN
-F 1 "ECS-TXO-25CSMV-320-AM-TR" H 5420 1505 50  0000 R CNN
+F 1 "ECS-TXO-2520-33-250-AN-TR" H 5420 1505 50  0000 R CNN
 F 2 "nezbyte:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm" H 5750 2350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/122/ECS-TXO-25CSMV-1663914.pdf" H 5750 2350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/122/ECS_TXO_2520-1064138.pdf" H 5750 2350 50  0001 C CNN
 	1    5650 1550
 	1    0    0    -1  
 $EndComp
@@ -544,12 +544,7 @@ F 3 "" H 5650 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 1850 5650 1850
-Wire Wire Line
 	5650 1850 5650 1900
-Connection ~ 5650 1850
-Wire Wire Line
-	5650 1850 5750 1850
 Text GLabel 6050 1550 2    50   Input ~ 0
 CLK
 Wire Wire Line
@@ -1151,4 +1146,5 @@ Wire Wire Line
 	8050 5800 7800 5800
 Text Notes 10600 7650 0    50   ~ 0
 1.1 Alpha
+NoConn ~ 5350 1550
 $EndSCHEMATC
